@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.02.21
+## Updated on 2024.02.22
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -467,7 +467,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## SFM
 
@@ -616,7 +616,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1224,7 +1224,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1422,7 +1422,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1611,7 +1611,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## NeRF
 
@@ -1623,7 +1623,7 @@
 |**2024-02-20**|**OccFlowNet: Towards Self-supervised Occupancy Estimation via Differentiable Rendering and Occupancy Flow**|Semantic occupancy has recently gained significant traction as a prominent 3D scene representation. However, most existing methods rely on large and costly datasets with fine-grained 3D voxel labels for training, which limits their practicality and scalability, increasing the need for self-monitored learning in this domain. In this work, we present a novel approach to occupancy estimation inspired by neural radiance field (NeRF) using only 2D labels, which are considerably easier to acquire. In particular, we employ differentiable volumetric rendering to predict depth and semantic maps and train a 3D network based on 2D supervision only. To enhance geometric accuracy and increase the supervisory signal, we introduce temporal rendering of adjacent time steps. Additionally, we introduce occupancy flow as a mechanism to handle dynamic objects in the scene and ensure their temporal consistency. Through extensive experimentation we demonstrate that 2D supervision only is sufficient to achieve state-of-the-art performance compared to methods using 3D labels, while outperforming concurrent 2D approaches. When combining 2D supervision with 3D labels, temporal rendering and occupancy flow we outperform all previous occupancy estimation models significantly. We conclude that the proposed rendering supervision and occupancy flow advances occupancy estimation and further bridges the gap towards self-supervised learning in this domain. et.al.|[2402.12792](http://arxiv.org/abs/2402.12792)|null|
 |**2024-02-19**|**Binary Opacity Grids: Capturing Fine Geometric Detail for Mesh-Based View Synthesis**|While surface-based view synthesis algorithms are appealing due to their low computational requirements, they often struggle to reproduce thin structures. In contrast, more expensive methods that model the scene's geometry as a volumetric density field (e.g. NeRF) excel at reconstructing fine geometric detail. However, density fields often represent geometry in a "fuzzy" manner, which hinders exact localization of the surface. In this work, we modify density fields to encourage them to converge towards surfaces, without compromising their ability to reconstruct thin structures. First, we employ a discrete opacity grid representation instead of a continuous density field, which allows opacity values to discontinuously transition from zero to one at the surface. Second, we anti-alias by casting multiple rays per pixel, which allows occlusion boundaries and subpixel structures to be modelled without using semi-transparent voxels. Third, we minimize the binary entropy of the opacity values, which facilitates the extraction of surface geometry by encouraging opacity values to binarize towards the end of training. Lastly, we develop a fusion-based meshing strategy followed by mesh simplification and appearance model fitting. The compact meshes produced by our model can be rendered in real-time on mobile devices and achieve significantly higher view synthesis quality compared to existing mesh-based approaches. et.al.|[2402.12377](http://arxiv.org/abs/2402.12377)|null|
 |**2024-02-19**|**Colorizing Monochromatic Radiance Fields**|Though Neural Radiance Fields (NeRF) can produce colorful 3D representations of the world by using a set of 2D images, such ability becomes non-existent when only monochromatic images are provided. Since color is necessary in representing the world, reproducing color from monochromatic radiance fields becomes crucial. To achieve this goal, instead of manipulating the monochromatic radiance fields directly, we consider it as a representation-prediction task in the Lab color space. By first constructing the luminance and density representation using monochromatic images, our prediction stage can recreate color representation on the basis of an image colorization module. We then reproduce a colorful implicit model through the representation of luminance, density, and color. Extensive experiments have been conducted to validate the effectiveness of our approaches. Our project page: https://liquidammonia.github.io/color-nerf. et.al.|[2402.12184](http://arxiv.org/abs/2402.12184)|null|
-|**2024-02-17**|**Semantically-aware Neural Radiance Fields for Visual Scene Understanding: A Comprehensive Review**|This review thoroughly examines the role of semantically-aware Neural Radiance Fields (NeRFs) in visual scene understanding, covering an analysis of over 250 scholarly papers. It explores how NeRFs adeptly infer 3D representations for both stationary and dynamic objects in a scene. This capability is pivotal for generating high-quality new viewpoints, completing missing scene details (inpainting), conducting comprehensive scene segmentation (panoptic segmentation), predicting 3D bounding boxes, editing 3D scenes, and extracting object-centric 3D models. A significant aspect of this study is the application of semantic labels as viewpoint-invariant functions, which effectively map spatial coordinates to a spectrum of semantic labels, thus facilitating the recognition of distinct objects within the scene. Overall, this survey highlights the progression and diverse applications of semantically-aware neural radiance fields in the context of visual scene interpretation. et.al.|[2402.11141](http://arxiv.org/abs/2402.11141)|null|
+|**2024-02-17**|**Semantically-aware Neural Radiance Fields for Visual Scene Understanding: A Comprehensive Review**|This review thoroughly examines the role of semantically-aware Neural Radiance Fields (NeRFs) in visual scene understanding, covering an analysis of over 250 scholarly papers. It explores how NeRFs adeptly infer 3D representations for both stationary and dynamic objects in a scene. This capability is pivotal for generating high-quality new viewpoints, completing missing scene details (inpainting), conducting comprehensive scene segmentation (panoptic segmentation), predicting 3D bounding boxes, editing 3D scenes, and extracting object-centric 3D models. A significant aspect of this study is the application of semantic labels as viewpoint-invariant functions, which effectively map spatial coordinates to a spectrum of semantic labels, thus facilitating the recognition of distinct objects within the scene. Overall, this survey highlights the progression and diverse applications of semantically-aware neural radiance fields in the context of visual scene interpretation. et.al.|[2402.11141](http://arxiv.org/abs/2402.11141)|**[link](https://github.com/abourki/sota-semantically-aware-nerfs)**|
 |**2024-02-15**|**Evaluating NeRFs for 3D Plant Geometry Reconstruction in Field Conditions**|We evaluate different Neural Radiance Fields (NeRFs) techniques for reconstructing (3D) plants in varied environments, from indoor settings to outdoor fields. Traditional techniques often struggle to capture the complex details of plants, which is crucial for botanical and agricultural understanding. We evaluate three scenarios with increasing complexity and compare the results with the point cloud obtained using LiDAR as ground truth data. In the most realistic field scenario, the NeRF models achieve a 74.65% F1 score with 30 minutes of training on the GPU, highlighting the efficiency and accuracy of NeRFs in challenging environments. These findings not only demonstrate the potential of NeRF in detailed and realistic 3D plant modeling but also suggest practical approaches for enhancing the speed and efficiency of the 3D reconstruction process. et.al.|[2402.10344](http://arxiv.org/abs/2402.10344)|null|
 |**2024-02-14**|**PC-NeRF: Parent-Child Neural Radiance Fields Using Sparse LiDAR Frames in Autonomous Driving Environments**|Large-scale 3D scene reconstruction and novel view synthesis are vital for autonomous vehicles, especially utilizing temporally sparse LiDAR frames. However, conventional explicit representations remain a significant bottleneck towards representing the reconstructed and synthetic scenes at unlimited resolution. Although the recently developed neural radiance fields (NeRF) have shown compelling results in implicit representations, the problem of large-scale 3D scene reconstruction and novel view synthesis using sparse LiDAR frames remains unexplored. To bridge this gap, we propose a 3D scene reconstruction and novel view synthesis framework called parent-child neural radiance field (PC-NeRF). Based on its two modules, parent NeRF and child NeRF, the framework implements hierarchical spatial partitioning and multi-level scene representation, including scene, segment, and point levels. The multi-level scene representation enhances the efficient utilization of sparse LiDAR point cloud data and enables the rapid acquisition of an approximate volumetric scene representation. With extensive experiments, PC-NeRF is proven to achieve high-precision novel LiDAR view synthesis and 3D reconstruction in large-scale scenes. Moreover, PC-NeRF can effectively handle situations with sparse LiDAR frames and demonstrate high deployment efficiency with limited training epochs. Our approach implementation and the pre-trained models are available at https://github.com/biter0088/pc-nerf. et.al.|[2402.09325](http://arxiv.org/abs/2402.09325)|**[link](https://github.com/biter0088/pc-nerf)**|
 |**2024-02-13**|**Preconditioners for the Stochastic Training of Implicit Neural Representations**|Implicit neural representations have emerged as a powerful technique for encoding complex continuous multidimensional signals as neural networks, enabling a wide range of applications in computer vision, robotics, and geometry. While Adam is commonly used for training due to its stochastic proficiency, it entails lengthy training durations. To address this, we explore alternative optimization techniques for accelerated training without sacrificing accuracy. Traditional second-order optimizers like L-BFGS are suboptimal in stochastic settings, making them unsuitable for large-scale data sets. Instead, we propose stochastic training using curvature-aware diagonal preconditioners, showcasing their effectiveness across various signal modalities such as images, shape reconstruction, and Neural Radiance Fields (NeRF). et.al.|[2402.08784](http://arxiv.org/abs/2402.08784)|null|
@@ -2416,7 +2416,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## Autonomous Driving
 
@@ -2666,7 +2666,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 ## LLM
 
@@ -3149,7 +3149,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240221>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240222>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
