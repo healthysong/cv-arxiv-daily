@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.03.08
+## Updated on 2024.03.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -470,7 +470,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## SFM
 
@@ -619,7 +619,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1227,7 +1227,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1425,7 +1425,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1614,7 +1614,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## NeRF
 
@@ -2450,13 +2450,13 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## Autonomous Driving
 
 |Publish Date|Title|Abstract|PDF|Code|
 |---|---|---|---|---|
-|**2024-03-07**|**A General Calibrated Regret Metric for Detecting and Mitigating Human-Robot Interaction Failures**|Robot decision-making increasingly relies on expressive data-driven human prediction models when operating around people. While these models are known to suffer from prediction errors in out-of-distribution interactions, not all prediction errors equally impact downstream robot performance. We identify that the mathematical notion of regret precisely characterizes the degree to which incorrect predictions of future interaction outcomes degraded closed-loop robot performance. However, canonical regret measures are poorly calibrated across diverse deployment interactions. We extend the canonical notion of regret by deriving a calibrated regret metric that generalizes from absolute reward space to probability space. With this transformation, our metric removes the need for explicit reward functions to calculate the robot's regret, enables fairer comparison of interaction anomalies across disparate deployment contexts, and facilitates targetted dataset construction of "system- level" prediction failures. We experimentally quantify the value of this high-regret interaction data for aiding the robot in improving its downstream decision-making. In a suite of closed- loop autonomous driving simulations, we find that fine-tuning ego-conditioned behavior predictors exclusively on high-regret human-robot interaction data can improve the robot's overall re-deployment performance with significantly (77%) less data. et.al.|[2403.04745](http://arxiv.org/abs/2403.04745)|null|
+|**2024-03-07**|**A General Calibrated Regret Metric for Detecting and Mitigating Human-Robot Interaction Failures**|Robot decision-making increasingly relies on expressive data-driven human prediction models when operating around people. While these models are known to suffer from prediction errors in out-of-distribution interactions, not all prediction errors equally impact downstream robot performance. We identify that the mathematical notion of regret precisely characterizes the degree to which incorrect predictions of future interaction outcomes degraded closed-loop robot performance. However, canonical regret measures are poorly calibrated across diverse deployment interactions. We extend the canonical notion of regret by deriving a calibrated regret metric that generalizes from absolute reward space to probability space. With this transformation, our metric removes the need for explicit reward functions to calculate the robot's regret, enables fairer comparison of interaction anomalies across disparate deployment contexts, and facilitates targetted dataset construction of "system-level" prediction failures. We experimentally quantify the value of this high-regret interaction data for aiding the robot in improving its downstream decision-making. In a suite of closed-loop autonomous driving simulations, we find that fine-tuning ego-conditioned behavior predictors exclusively on high-regret human-robot interaction data can improve the robot's overall re-deployment performance with significantly (77%) less data. et.al.|[2403.04745](http://arxiv.org/abs/2403.04745)|null|
 |**2024-03-07**|**Embodied Understanding of Driving Scenarios**|Embodied scene understanding serves as the cornerstone for autonomous agents to perceive, interpret, and respond to open driving scenarios. Such understanding is typically founded upon Vision-Language Models (VLMs). Nevertheless, existing VLMs are restricted to the 2D domain, devoid of spatial awareness and long-horizon extrapolation proficiencies. We revisit the key aspects of autonomous driving and formulate appropriate rubrics. Hereby, we introduce the Embodied Language Model (ELM), a comprehensive framework tailored for agents' understanding of driving scenes with large spatial and temporal spans. ELM incorporates space-aware pre-training to endow the agent with robust spatial localization capabilities. Besides, the model employs time-aware token selection to accurately inquire about temporal cues. We instantiate ELM on the reformulated multi-faced benchmark, and it surpasses previous state-of-the-art approaches in all aspects. All code, data, and models will be publicly shared. et.al.|[2403.04593](http://arxiv.org/abs/2403.04593)|null|
 |**2024-03-07**|**FriendNet: Detection-Friendly Dehazing Network**|Adverse weather conditions often impair the quality of captured images, inevitably inducing cutting-edge object detection models for advanced driver assistance systems (ADAS) and autonomous driving. In this paper, we raise an intriguing question: can the combination of image restoration and object detection enhance detection performance in adverse weather conditions? To answer it, we propose an effective architecture that bridges image dehazing and object detection together via guidance information and task-driven learning to achieve detection-friendly dehazing, termed FriendNet. FriendNet aims to deliver both high-quality perception and high detection capacity. Different from existing efforts that intuitively treat image dehazing as pre-processing, FriendNet establishes a positive correlation between these two tasks. Clean features generated by the dehazing network potentially contribute to improvements in object detection performance. Conversely, object detection crucially guides the learning process of the image dehazing network under the task-driven learning scheme. We shed light on how downstream tasks can guide upstream dehazing processes, considering both network architecture and learning objectives. We design Guidance Fusion Block (GFB) and Guidance Attention Block (GAB) to facilitate the integration of detection information into the network. Furthermore, the incorporation of the detection task loss aids in refining the optimization process. Additionally, we introduce a new Physics-aware Feature Enhancement Block (PFEB), which integrates physics-based priors to enhance the feature extraction and representation capabilities. Extensive experiments on synthetic and real-world datasets demonstrate the superiority of our method over state-of-the-art methods on both image quality and detection precision. Our source code is available at https://github.com/fanyihua0309/FriendNet. et.al.|[2403.04443](http://arxiv.org/abs/2403.04443)|null|
 |**2024-03-07**|**LitSim: Conflict-aware Policy for Long-term Interactive Traffic Simulation**|Simulation is pivotal in evaluating the performance of autonomous driving systems due to the advantages in efficiency and cost compared to on-road testing. Realistic multi-agent behavior~(e.g., interactive and long-term) is needed to narrow the gap between the simulation and the reality. The existing work has the following shortcomings in achieving this goal:~(1) log replay offers realistic scenarios but leads to unrealistic collisions due to lacking dynamic interactions, and~(2) model-based and learning-based solutions encourage interactions but often deviate from real-world data in long horizons. In this work, we propose LitSim, a long-term interactive simulation approach that maximizes realism while avoiding unrealistic collisions. Specifically, we replay the log for most scenarios and intervene only when LitSim predicts unrealistic conflicts. We then encourage interactions among the agents and resolve the conflicts, thereby reducing the likelihood of unrealistic collisions. We train and validate our model on the real-world dataset NGSIM, and the experimental results demonstrate that LitSim outperforms the current popular approaches in realism and reactivity. et.al.|[2403.04299](http://arxiv.org/abs/2403.04299)|null|
@@ -2774,7 +2774,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 ## LLM
 
@@ -3368,7 +3368,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240308>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240309>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
