@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.04.12
+## Updated on 2024.04.13
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -477,7 +477,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## SFM
 
@@ -626,7 +626,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1234,7 +1234,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1432,7 +1432,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1621,7 +1621,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## NeRF
 
@@ -2580,7 +2580,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## Autonomous Driving
 
@@ -2592,7 +2592,7 @@
 |**2024-04-11**|**Can Vehicle Motion Planning Generalize to Realistic Long-tail Scenarios?**|Real-world autonomous driving systems must make safe decisions in the face of rare and diverse traffic scenarios. Current state-of-the-art planners are mostly evaluated on real-world datasets like nuScenes (open-loop) or nuPlan (closed-loop). In particular, nuPlan seems to be an expressive evaluation method since it is based on real-world data and closed-loop, yet it mostly covers basic driving scenarios. This makes it difficult to judge a planner's capabilities to generalize to rarely-seen situations. Therefore, we propose a novel closed-loop benchmark interPlan containing several edge cases and challenging driving scenarios. We assess existing state-of-the-art planners on our benchmark and show that neither rule-based nor learning-based planners can safely navigate the interPlan scenarios.   A recently evolving direction is the usage of foundation models like large language models (LLM) to handle generalization. We evaluate an LLM-only planner and introduce a novel hybrid planner that combines an LLM-based behavior planner with a rule-based motion planner that achieves state-of-the-art performance on our benchmark. et.al.|[2404.07569](http://arxiv.org/abs/2404.07569)|null|
 |**2024-04-11**|**PillarTrack: Redesigning Pillar-based Transformer Network for Single Object Tracking on Point Clouds**|LiDAR-based 3D single object tracking (3D SOT) is a critical issue in robotics and autonomous driving. It aims to obtain accurate 3D BBox from the search area based on similarity or motion. However, existing 3D SOT methods usually follow the point-based pipeline, where the sampling operation inevitably leads to redundant or lost information, resulting in unexpected performance. To address these issues, we propose PillarTrack, a pillar-based 3D single object tracking framework. Firstly, we transform sparse point clouds into dense pillars to preserve the local and global geometrics. Secondly, we introduce a Pyramid-type Encoding Pillar Feature Encoder (PE-PFE) design to help the feature representation of each pillar. Thirdly, we present an efficient Transformer-based backbone from the perspective of modality differences. Finally, we construct our PillarTrack tracker based above designs. Extensive experiments on the KITTI and nuScenes dataset demonstrate the superiority of our proposed method. Notably, our method achieves state-of-the-art performance on the KITTI and nuScenes dataset and enables real-time tracking speed. We hope our work could encourage the community to rethink existing 3D SOT tracker designs.We will open source our code to the research community in https://github.com/StiphyJay/PillarTrack. et.al.|[2404.07495](http://arxiv.org/abs/2404.07495)|**[link](https://github.com/stiphyjay/pillartrack)**|
 |**2024-04-10**|**Incorporating Explanations into Human-Machine Interfaces for Trust and Situation Awareness in Autonomous Vehicles**|Autonomous vehicles often make complex decisions via machine learning-based predictive models applied to collected sensor data. While this combination of methods provides a foundation for real-time actions, self-driving behavior primarily remains opaque to end users. In this sense, explainability of real-time decisions is a crucial and natural requirement for building trust in autonomous vehicles. Moreover, as autonomous vehicles still cause serious traffic accidents for various reasons, timely conveyance of upcoming hazards to road users can help improve scene understanding and prevent potential risks. Hence, there is also a need to supply autonomous vehicles with user-friendly interfaces for effective human-machine teaming. Motivated by this problem, we study the role of explainable AI and human-machine interface jointly in building trust in vehicle autonomy. We first present a broad context of the explanatory human-machine systems with the "3W1H" (what, whom, when, how) approach. Based on these findings, we present a situation awareness framework for calibrating users' trust in self-driving behavior. Finally, we perform an experiment on our framework, conduct a user study on it, and validate the empirical findings with hypothesis testing. et.al.|[2404.07383](http://arxiv.org/abs/2404.07383)|null|
-|**2024-04-10**|**Sequential Decision Making with Expert Demonstrations under Unobserved Heterogeneity**|We study the problem of online sequential decision-making given auxiliary demonstrations from experts who made their decisions based on unobserved contextual information. These demonstrations can be viewed as solving related but slightly different tasks than what the learner faces. This setting arises in many application domains, such as self-driving cars, healthcare, and finance, where expert demonstrations are made using contextual information, which is not recorded in the data available to the learning agent. We model the problem as a zero-shot meta-reinforcement learning setting with an unknown task distribution and a Bayesian regret minimization objective, where the unobserved tasks are encoded as parameters with an unknown prior. We propose the Experts-as-Priors algorithm (ExPerior), a non-parametric empirical Bayes approach that utilizes the principle of maximum entropy to establish an informative prior over the learner's decision-making problem. This prior enables the application of any Bayesian approach for online decision-making, such as posterior sampling. We demonstrate that our strategy surpasses existing behaviour cloning and online algorithms for multi-armed bandits and reinforcement learning, showcasing the utility of our approach in leveraging expert demonstrations across different decision-making setups. et.al.|[2404.07266](http://arxiv.org/abs/2404.07266)|null|
+|**2024-04-10**|**Sequential Decision Making with Expert Demonstrations under Unobserved Heterogeneity**|We study the problem of online sequential decision-making given auxiliary demonstrations from experts who made their decisions based on unobserved contextual information. These demonstrations can be viewed as solving related but slightly different tasks than what the learner faces. This setting arises in many application domains, such as self-driving cars, healthcare, and finance, where expert demonstrations are made using contextual information, which is not recorded in the data available to the learning agent. We model the problem as a zero-shot meta-reinforcement learning setting with an unknown task distribution and a Bayesian regret minimization objective, where the unobserved tasks are encoded as parameters with an unknown prior. We propose the Experts-as-Priors algorithm (ExPerior), a non-parametric empirical Bayes approach that utilizes the principle of maximum entropy to establish an informative prior over the learner's decision-making problem. This prior enables the application of any Bayesian approach for online decision-making, such as posterior sampling. We demonstrate that our strategy surpasses existing behaviour cloning and online algorithms for multi-armed bandits and reinforcement learning, showcasing the utility of our approach in leveraging expert demonstrations across different decision-making setups. et.al.|[2404.07266](http://arxiv.org/abs/2404.07266)|**[link](https://github.com/vdblm/ExPerior)**|
 |**2024-04-10**|**Identification of Fine-grained Systematic Errors via Controlled Scene Generation**|Many safety-critical applications, especially in autonomous driving, require reliable object detectors. They can be very effectively assisted by a method to search for and identify potential failures and systematic errors before these detectors are deployed. Systematic errors are characterized by combinations of attributes such as object location, scale, orientation, and color, as well as the composition of their respective backgrounds. To identify them, one must rely on something other than real images from a test set because they do not account for very rare but possible combinations of attributes. To overcome this limitation, we propose a pipeline for generating realistic synthetic scenes with fine-grained control, allowing the creation of complex scenes with multiple objects. Our approach, BEV2EGO, allows for a realistic generation of the complete scene with road-contingent control that maps 2D bird's-eye view (BEV) scene configurations to a first-person view (EGO). In addition, we propose a benchmark for controlled scene generation to select the most appropriate generative outpainting model for BEV2EGO. We further use it to perform a systematic analysis of multiple state-of-the-art object detection models and discover differences between them. et.al.|[2404.07045](http://arxiv.org/abs/2404.07045)|null|
 |**2024-04-10**|**SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving**|End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the sparse queries completely represent the whole driving scenario across space, time and tasks without any dense BEV representation. Concretely, we design a unified sparse architecture for perception tasks including detection, tracking, and online mapping. Moreover, we revisit motion prediction and planning, and devise a more justifiable motion planner framework. On the challenging nuScenes dataset, SparseAD achieves SOTA full-task performance among end-to-end methods and significantly narrows the performance gap between end-to-end paradigms and single-task methods. Codes will be released soon. et.al.|[2404.06892](http://arxiv.org/abs/2404.06892)|null|
 |**2024-04-10**|**Monocular 3D lane detection for Autonomous Driving: Recent Achievements, Challenges, and Outlooks**|3D lane detection plays a crucial role in autonomous driving by extracting structural and traffic information from the road in 3D space to assist the self-driving car in rational, safe, and comfortable path planning and motion control. Due to the consideration of sensor costs and the advantages of visual data in color information, in practical applications, 3D lane detection based on monocular vision is one of the important research directions in the field of autonomous driving, which has attracted more and more attention in both industry and academia. Unfortunately, recent progress in visual perception seems insufficient to develop completely reliable 3D lane detection algorithms, which also hinders the development of vision-based fully autonomous self-driving cars, i.e., achieving level 5 autonomous driving, driving like human-controlled cars. This is one of the conclusions drawn from this review paper: there is still a lot of room for improvement and significant improvements are still needed in the 3D lane detection algorithm for autonomous driving cars using visual sensors. Motivated by this, this review defines, analyzes, and reviews the current achievements in the field of 3D lane detection research, and the vast majority of the current progress relies heavily on computationally complex deep learning models. In addition, this review covers the 3D lane detection pipeline, investigates the performance of state-of-the-art algorithms, analyzes the time complexity of cutting-edge modeling choices, and highlights the main achievements and limitations of current research efforts. The survey also includes a comprehensive discussion of available 3D lane detection datasets and the challenges that researchers have faced but have not yet resolved. Finally, our work outlines future research directions and welcomes researchers and practitioners to enter this exciting field. et.al.|[2404.06860](http://arxiv.org/abs/2404.06860)|null|
@@ -3078,7 +3078,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 ## LLM
 
@@ -3916,7 +3916,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240412>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240413>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
