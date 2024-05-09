@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.05.08
+## Updated on 2024.05.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -485,7 +485,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## SFM
 
@@ -634,7 +634,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1242,7 +1242,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1440,7 +1440,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1629,7 +1629,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## NeRF
 
@@ -2640,7 +2640,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## Autonomous Driving
 
@@ -3266,7 +3266,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 ## LLM
 
@@ -3277,7 +3277,7 @@
 |**2024-05-07**|**NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts**|Large language models (LLMs) have manifested strong ability to generate codes for productive activities. However, current benchmarks for code synthesis, such as HumanEval, MBPP, and DS-1000, are predominantly oriented towards introductory tasks on algorithm and data science, insufficiently satisfying challenging requirements prevalent in real-world coding. To fill this gap, we propose NaturalCodeBench (NCB), a challenging code benchmark designed to mirror the complexity and variety of scenarios in real coding tasks. NCB comprises 402 high-quality problems in Python and Java, meticulously selected from natural user queries from online coding services, covering 6 different domains. Noting the extraordinary difficulty in creating testing cases for real-world queries, we also introduce a semi-automated pipeline to enhance the efficiency of test case construction. Comparing with manual solutions, it achieves an efficiency increase of more than 4 times. Our systematic experiments on 39 LLMs find that performance gaps on NCB between models with close HumanEval scores could still be significant, indicating a lack of focus on practical code synthesis scenarios or over-specified optimization on HumanEval. On the other hand, even the best-performing GPT-4 is still far from satisfying on NCB. The evaluation toolkit and development set are available at https://github.com/THUDM/NaturalCodeBench. et.al.|[2405.04520](http://arxiv.org/abs/2405.04520)|null|
 |**2024-05-07**|**xLSTM: Extended Long Short-Term Memory**|In the 1990s, the constant error carousel and gating were introduced as the central ideas of the Long Short-Term Memory (LSTM). Since then, LSTMs have stood the test of time and contributed to numerous deep learning success stories, in particular they constituted the first Large Language Models (LLMs). However, the advent of the Transformer technology with parallelizable self-attention at its core marked the dawn of a new era, outpacing LSTMs at scale. We now raise a simple question: How far do we get in language modeling when scaling LSTMs to billions of parameters, leveraging the latest techniques from modern LLMs, but mitigating known limitations of LSTMs? Firstly, we introduce exponential gating with appropriate normalization and stabilization techniques. Secondly, we modify the LSTM memory structure, obtaining: (i) sLSTM with a scalar memory, a scalar update, and new memory mixing, (ii) mLSTM that is fully parallelizable with a matrix memory and a covariance update rule. Integrating these LSTM extensions into residual block backbones yields xLSTM blocks that are then residually stacked into xLSTM architectures. Exponential gating and modified memory structures boost xLSTM capabilities to perform favorably when compared to state-of-the-art Transformers and State Space Models, both in performance and scaling. et.al.|[2405.04517](http://arxiv.org/abs/2405.04517)|null|
 |**2024-05-07**|**A Transformer with Stack Attention**|Natural languages are believed to be (mildly) context-sensitive. Despite underpinning remarkably capable large language models, transformers are unable to model many context-free language tasks. In an attempt to address this limitation in the modeling power of transformer-based language models, we propose augmenting them with a differentiable, stack-based attention mechanism. Our stack-based attention mechanism can be incorporated into any transformer-based language model and adds a level of interpretability to the model. We show that the addition of our stack-based attention mechanism enables the transformer to model some, but not all, deterministic context-free languages. et.al.|[2405.04515](http://arxiv.org/abs/2405.04515)|**[link](https://github.com/rycolab/stack-transformer)**|
-|**2024-05-07**|**Unveiling Disparities in Web Task Handling Between Human and Web Agent**|With the advancement of Large-Language Models (LLMs) and Large Vision-Language Models (LVMs), agents have shown significant capabilities in various tasks, such as data analysis, gaming, or code generation. Recently, there has been a surge in research on web agents, capable of performing tasks within the web environment. However, the web poses unforeseeable scenarios, challenging the generalizability of these agents. This study investigates the disparities between human and web agents' performance in web tasks (e.g., information search) by concentrating on planning, action, and reflection aspects during task execution. We conducted a web task study with a think-aloud protocol, revealing distinct cognitive actions and operations on websites employed by humans. Comparative examination of existing agent structures and human behavior with thought processes highlighted differences in knowledge updating and ambiguity handling when performing the task. Humans demonstrated a propensity for exploring and modifying plans based on additional information and investigating reasons for failure. These findings offer insights into designing planning, reflection, and information discovery modules for web agents and designing the capturing method for implicit human knowledge in a web task. et.al.|[2405.04497](http://arxiv.org/abs/2405.04497)|null|
+|**2024-05-08**|**Unveiling Disparities in Web Task Handling Between Human and Web Agent**|With the advancement of Large-Language Models (LLMs) and Large Vision-Language Models (LVMs), agents have shown significant capabilities in various tasks, such as data analysis, gaming, or code generation. Recently, there has been a surge in research on web agents, capable of performing tasks within the web environment. However, the web poses unforeseeable scenarios, challenging the generalizability of these agents. This study investigates the disparities between human and web agents' performance in web tasks (e.g., information search) by concentrating on planning, action, and reflection aspects during task execution. We conducted a web task study with a think-aloud protocol, revealing distinct cognitive actions and operations on websites employed by humans. Comparative examination of existing agent structures and human behavior with thought processes highlighted differences in knowledge updating and ambiguity handling when performing the task. Humans demonstrated a propensity for exploring and modifying plans based on additional information and investigating reasons for failure. These findings offer insights into designing planning, reflection, and information discovery modules for web agents and designing the capturing method for implicit human knowledge in a web task. et.al.|[2405.04497](http://arxiv.org/abs/2405.04497)|null|
 |**2024-05-07**|**Toward In-Context Teaching: Adapting Examples to Students' Misconceptions**|When a teacher provides examples for a student to study, these examples must be informative, enabling a student to progress from their current state toward a target concept or skill. Good teachers must therefore simultaneously infer what students already know and adapt their teaching to students' changing state of knowledge. There is increasing interest in using computational models, particularly large language models, as pedagogical tools. As students, language models in particular have shown a remarkable ability to adapt to new tasks given small numbers of examples. But how effectively can these models adapt as teachers to students of different types? To study this question, we introduce a suite of models and evaluation methods we call AdapT. AdapT has two components: (1) a collection of simulated Bayesian student models that can be used for evaluation of automated teaching methods; (2) a platform for evaluation with human students, to characterize the real-world effectiveness of these methods. We additionally introduce (3) AToM, a new probabilistic model for adaptive teaching that jointly infers students' past beliefs and optimizes for the correctness of future beliefs. In evaluations of simulated students across three learning domains (fraction arithmetic, English morphology, function learning), AToM systematically outperforms LLM-based and standard Bayesian teaching models. In human experiments, both AToM and LLMs outperform non-adaptive random example selection. Our results highlight both the difficulty of the adaptive teaching task and the potential of learned adaptive models for solving it. et.al.|[2405.04495](http://arxiv.org/abs/2405.04495)|null|
 |**2024-05-07**|**The Silicone Ceiling: Auditing GPT's Race and Gender Biases in Hiring**|Large language models (LLMs) are increasingly being introduced in workplace settings, with the goals of improving efficiency and fairness. However, concerns have arisen regarding these models' potential to reflect or exacerbate social biases and stereotypes. This study explores the potential impact of LLMs on hiring practices. To do so, we conduct an algorithm audit of race and gender biases in one commonly-used LLM, OpenAI's GPT-3.5, taking inspiration from the history of traditional offline resume audits. We conduct two studies using names with varied race and gender connotations: resume assessment (Study 1) and resume generation (Study 2). In Study 1, we ask GPT to score resumes with 32 different names (4 names for each combination of the 2 gender and 4 racial groups) and two anonymous options across 10 occupations and 3 evaluation tasks (overall rating, willingness to interview, and hireability). We find that the model reflects some biases based on stereotypes. In Study 2, we prompt GPT to create resumes (10 for each name) for fictitious job candidates. When generating resumes, GPT reveals underlying biases; women's resumes had occupations with less experience, while Asian and Hispanic resumes had immigrant markers, such as non-native English and non-U.S. education and work experiences. Our findings contribute to a growing body of literature on LLM biases, in particular when used in workplace contexts. et.al.|[2405.04412](http://arxiv.org/abs/2405.04412)|null|
 |**2024-05-07**|**Learning To See But Forgetting To Follow: Visual Instruction Tuning Makes LLMs More Prone To Jailbreak Attacks**|Augmenting Large Language Models (LLMs) with image-understanding capabilities has resulted in a boom of high-performing Vision-Language models (VLMs). While studying the alignment of LLMs to human values has received widespread attention, the safety of VLMs has not received the same attention. In this paper, we explore the impact of jailbreaking on three state-of-the-art VLMs, each using a distinct modeling approach. By comparing each VLM to their respective LLM backbone, we find that each VLM is more susceptible to jailbreaking. We consider this as an undesirable outcome from visual instruction-tuning, which imposes a forgetting effect on an LLM's safety guardrails. Therefore, we provide recommendations for future work based on evaluation strategies that aim to highlight the weaknesses of a VLM, as well as take safety measures into account during visual instruction tuning. et.al.|[2405.04403](http://arxiv.org/abs/2405.04403)|**[link](https://github.com/gpantaz/vl_jailbreak)**|
@@ -4284,7 +4284,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240508>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240509>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
