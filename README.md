@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.06.10
+## Updated on 2024.06.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -28,7 +28,7 @@
 |**2024-06-03**|**Self-Supervised Geometry-Guided Initialization for Robust Monocular Visual Odometry**|Monocular visual odometry is a key technology in a wide variety of autonomous systems. Relative to traditional feature-based methods, that suffer from failures due to poor lighting, insufficient texture, large motions, etc., recent learning-based SLAM methods exploit iterative dense bundle adjustment to address such failure cases and achieve robust accurate localization in a wide variety of real environments, without depending on domain-specific training data. However, despite its potential, learning-based SLAM still struggles with scenarios involving large motion and object dynamics. In this paper, we diagnose key weaknesses in a popular learning-based SLAM model (DROID-SLAM) by analyzing major failure cases on outdoor benchmarks and exposing various shortcomings of its optimization process. We then propose the use of self-supervised priors leveraging a frozen large-scale pre-trained monocular depth estimation to initialize the dense bundle adjustment process, leading to robust visual odometry without the need to fine-tune the SLAM backbone. Despite its simplicity, our proposed method demonstrates significant improvements on KITTI odometry, as well as the challenging DDAD benchmark. Code and pre-trained models will be released upon publication. et.al.|[2406.00929](http://arxiv.org/abs/2406.00929)|null|
 |**2024-05-30**|**TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM**|The limited robustness of 3D Gaussian Splatting (3DGS) to motion blur and camera noise, along with its poor real-time performance, restricts its application in robotic SLAM tasks. Upon analysis, the primary causes of these issues are the density of views with motion blur and the cumulative errors in dense pose estimation from calculating losses based on noisy original images and rendering results, which increase the difficulty of 3DGS rendering convergence. Thus, a cutting-edge 3DGS-based SLAM system is introduced, leveraging the efficiency and flexibility of 3DGS to achieve real-time performance while remaining robust against sensor noise, motion blur, and the challenges posed by long-session SLAM. Central to this approach is the Fusion Bridge module, which seamlessly integrates tracking-centered ORB Visual Odometry with mapping-centered online 3DGS. Precise pose initialization is enabled by this module through joint optimization of re-projection and rendering loss, as well as strategic view selection, enhancing rendering convergence in large-scale scenes. Extensive experiments demonstrate state-of-the-art rendering quality and localization accuracy, positioning this system as a promising solution for real-world robotics applications that require stable, near-real-time performance. Our project is available at https://ZeldaFromHeaven.github.io/TAMBRIDGE/ et.al.|[2405.19614](http://arxiv.org/abs/2405.19614)|null|
 |**2024-05-23**|**ETA-INIT: Enhancing the Translation Accuracy for Stereo Visual-Inertial SLAM Initialization**|As the current initialization method in the state-of-the-art Stereo Visual-Inertial SLAM framework, ORB-SLAM3 has limitations. Its success depends on the performance of the pure stereo SLAM system and is based on the underlying assumption that pure visual SLAM can accurately estimate the camera trajectory, which is essential for inertial parameter estimation. Meanwhile, the further improved initialization method for ORB-SLAM3, known as Stereo-NEC, is time-consuming due to applying keypoint tracking to estimate gyroscope bias with normal epipolar constraints. To address the limitations of previous methods, this paper proposes a method aimed at enhancing translation accuracy during the initialization stage. The fundamental concept of our method is to improve the translation estimate with a 3 Degree-of-Freedom (DoF) Bundle Adjustment (BA), independently, while the rotation estimate is fixed, instead of using ORB-SLAM3's 6-DoF BA. Additionally, the rotation estimate will be updated by considering IMU measurements and gyroscope bias, unlike ORB-SLAM3's rotation, which is directly obtained from stereo visual odometry and may yield inferior results when operating in challenging scenarios. We also conduct extensive evaluations on the public benchmark, the EuRoC dataset, demonstrating that our method excels in accuracy. et.al.|[2405.15082](http://arxiv.org/abs/2405.15082)|null|
-|**2024-05-20**|**EdgeLoc: A Communication-Adaptive Parallel System for Real-Time Localization in Infrastructure-Assisted Autonomous Driving**|This paper presents EdgeLoc, an infrastructure-assisted, real-time localization system for autonomous driving that addresses the incompatibility between traditional localization methods and deep learning approaches. The system is built on top of the Robot Operating System (ROS) and combines the real-time performance of traditional methods with the high accuracy of deep learning approaches. The system leverages edge computing capabilities of roadside units (RSUs) for precise localization to enhance on-vehicle localization that is based on the real-time visual odometry. EdgeLoc is a parallel processing system, utilizing a proposed uncertainty-aware pose fusion solution. It achieves communication adaptivity through online learning and addresses fluctuations via window-based detection. Moreover, it achieves optimal latency and maximum improvement by utilizing auto-splitting vehicle-infrastructure collaborative inference, as well as online distribution learning for decision-making. Even with the most basic end-to-end deep neural network for localization estimation, EdgeLoc realizes a 67.75\% reduction in the localization error for real-time local visual odometry, a 29.95\% reduction for non-real-time collaborative inference, and a 30.26\% reduction compared to Kalman filtering. Finally, accuracy-to-latency conversion was experimentally validated, and an overall experiment was conducted on a practical cellular network. The system is open sourced at https://github.com/LoganCome/EdgeAssistedLocalization. et.al.|[2405.12120](http://arxiv.org/abs/2405.12120)|null|
+|**2024-06-08**|**EdgeLoc: A Communication-Adaptive Parallel System for Real-Time Localization in Infrastructure-Assisted Autonomous Driving**|This paper presents EdgeLoc, an infrastructure-assisted, real-time localization system for autonomous driving that addresses the incompatibility between traditional localization methods and deep learning approaches. The system is built on top of the Robot Operating System (ROS) and combines the real-time performance of traditional methods with the high accuracy of deep learning approaches. The system leverages edge computing capabilities of roadside units (RSUs) for precise localization to enhance on-vehicle localization that is based on the real-time visual odometry. EdgeLoc is a parallel processing system, utilizing a proposed uncertainty-aware pose fusion solution. It achieves communication adaptivity through online learning and addresses fluctuations via window-based detection. Moreover, it achieves optimal latency and maximum improvement by utilizing auto-splitting vehicle-infrastructure collaborative inference, as well as online distribution learning for decision-making. Even with the most basic end-to-end deep neural network for localization estimation, EdgeLoc realizes a 67.75\% reduction in the localization error for real-time local visual odometry, a 29.95\% reduction for non-real-time collaborative inference, and a 30.26\% reduction compared to Kalman filtering. Finally, accuracy-to-latency conversion was experimentally validated, and an overall experiment was conducted on a practical cellular network. The system is open sourced at https://github.com/LoganCome/EdgeAssistedLocalization. et.al.|[2405.12120](http://arxiv.org/abs/2405.12120)|null|
 |**2024-05-10**|**MGS-SLAM: Monocular Sparse Tracking and Gaussian Mapping with Depth Smooth Regularization**|This letter introduces a novel framework for dense Visual Simultaneous Localization and Mapping (VSLAM) based on Gaussian Splatting. Recently Gaussian Splatting-based SLAM has yielded promising results, but rely on RGB-D input and is weak in tracking. To address these limitations, we uniquely integrates advanced sparse visual odometry with a dense Gaussian Splatting scene representation for the first time, thereby eliminating the dependency on depth maps typical of Gaussian Splatting-based SLAM systems and enhancing tracking robustness. Here, the sparse visual odometry tracks camera poses in RGB stream, while Gaussian Splatting handles map reconstruction. These components are interconnected through a Multi-View Stereo (MVS) depth estimation network. And we propose a depth smooth loss to reduce the negative effect of estimated depth maps. Furthermore, the consistency in scale between the sparse visual odometry and the dense Gaussian map is preserved by Sparse-Dense Adjustment Ring (SDAR). We have evaluated our system across various synthetic and real-world datasets. The accuracy of our pose estimation surpasses existing methods and achieves state-of-the-art performance. Additionally, it outperforms previous monocular methods in terms of novel view synthesis fidelity, matching the results of neural SLAM systems that utilize RGB-D input. et.al.|[2405.06241](http://arxiv.org/abs/2405.06241)|null|
 |**2024-05-07**|**Bayesian Simultaneous Localization and Multi-Lane Tracking Using Onboard Sensors and a SD Map**|High-definition map with accurate lane-level information is crucial for autonomous driving, but the creation of these maps is a resource-intensive process. To this end, we present a cost-effective solution to create lane-level roadmaps using only the global navigation satellite system (GNSS) and a camera on customer vehicles. Our proposed solution utilizes a prior standard-definition (SD) map, GNSS measurements, visual odometry, and lane marking edge detection points, to simultaneously estimate the vehicle's 6D pose, its position within a SD map, and also the 3D geometry of traffic lines. This is achieved using a Bayesian simultaneous localization and multi-object tracking filter, where the estimation of traffic lines is formulated as a multiple extended object tracking problem, solved using a trajectory Poisson multi-Bernoulli mixture (TPMBM) filter. In TPMBM filtering, traffic lines are modeled using B-spline trajectories, and each trajectory is parameterized by a sequence of control points. The proposed solution has been evaluated using experimental data collected by a test vehicle driving on highway. Preliminary results show that the traffic line estimates, overlaid on the satellite image, generally align with the lane markings up to some lateral offsets. et.al.|[2405.04290](http://arxiv.org/abs/2405.04290)|null|
 |**2024-05-07**|**IMU-Aided Event-based Stereo Visual Odometry**|Direct methods for event-based visual odometry solve the mapping and camera pose tracking sub-problems by establishing implicit data association in a way that the generative model of events is exploited. The main bottlenecks faced by state-of-the-art work in this field include the high computational complexity of mapping and the limited accuracy of tracking. In this paper, we improve our previous direct pipeline \textit{Event-based Stereo Visual Odometry} in terms of accuracy and efficiency. To speed up the mapping operation, we propose an efficient strategy of edge-pixel sampling according to the local dynamics of events. The mapping performance in terms of completeness and local smoothness is also improved by combining the temporal stereo results and the static stereo results. To circumvent the degeneracy issue of camera pose tracking in recovering the yaw component of general 6-DoF motion, we introduce as a prior the gyroscope measurements via pre-integration. Experiments on publicly available datasets justify our improvement. We release our pipeline as an open-source software for future research in this field. et.al.|[2405.04071](http://arxiv.org/abs/2405.04071)|**[link](https://github.com/nail-hnu/esvio_aa)**|
@@ -491,7 +491,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## SFM
 
@@ -640,7 +640,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1248,7 +1248,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1446,7 +1446,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1635,7 +1635,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## NeRF
 
@@ -2714,7 +2714,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## Autonomous Driving
 
@@ -3472,7 +3472,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 ## LLM
 
@@ -4700,7 +4700,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240610>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240611>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
