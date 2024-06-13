@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.06.12
+## Updated on 2024.06.13
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -491,7 +491,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## SFM
 
@@ -640,7 +640,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -1248,7 +1248,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1446,7 +1446,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1635,7 +1635,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## NeRF
 
@@ -2723,7 +2723,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## Autonomous Driving
 
@@ -2733,7 +2733,7 @@
 |**2024-06-11**|**Instruct Large Language Models to Drive like Humans**|Motion planning in complex scenarios is the core challenge in autonomous driving. Conventional methods apply predefined rules or learn from driving data to plan the future trajectory. Recent methods seek the knowledge preserved in large language models (LLMs) and apply them in the driving scenarios. Despite the promising results, it is still unclear whether the LLM learns the underlying human logic to drive. In this paper, we propose an InstructDriver method to transform LLM into a motion planner with explicit instruction tuning to align its behavior with humans. We derive driving instruction data based on human logic (e.g., do not cause collisions) and traffic rules (e.g., proceed only when green lights). We then employ an interpretable InstructChain module to further reason the final planning reflecting the instructions. Our InstructDriver allows the injection of human rules and learning from driving data, enabling both interpretability and data scalability. Different from existing methods that experimented on closed-loop or simulated settings, we adopt the real-world closed-loop motion planning nuPlan benchmark for better evaluation. InstructDriver demonstrates the effectiveness of the LLM planner in a real-world closed-loop setting. Our code is publicly available at https://github.com/bonbon-rj/InstructDriver. et.al.|[2406.07296](http://arxiv.org/abs/2406.07296)|**[link](https://github.com/bonbon-rj/instructdriver)**|
 |**2024-06-11**|**EFFOcc: A Minimal Baseline for EFficient Fusion-based 3D Occupancy Network**|3D occupancy prediction (Occ) is a rapidly rising challenging perception task in the field of autonomous driving which represents the driving scene as uniformly partitioned 3D voxel grids with semantics. Compared to 3D object detection, grid perception has great advantage of better recognizing irregularly shaped, unknown category, or partially occluded general objects. However, existing 3D occupancy networks (occnets) are both computationally heavy and label-hungry. In terms of model complexity, occnets are commonly composed of heavy Conv3D modules or transformers on the voxel level. In terms of label annotations requirements, occnets are supervised with large-scale expensive dense voxel labels. Model and data inefficiency, caused by excessive network parameters and label annotations requirement, severely hinder the onboard deployment of occnets. This paper proposes an efficient 3d occupancy network (EFFOcc), that targets the minimal network complexity and label requirement while achieving state-of-the-art accuracy. EFFOcc only uses simple 2D operators, and improves Occ accuracy to the state-of-the-art on multiple large-scale benchmarks: Occ3D-nuScenes, Occ3D-Waymo, and OpenOccupancy-nuScenes. On Occ3D-nuScenes benchmark, EFFOcc has only 18.4M parameters, and achieves 50.46 in terms of mean IoU (mIoU), to our knowledge, it is the occnet with minimal parameters compared with related occnets. Moreover, we propose a two-stage active learning strategy to reduce the requirements of labelled data. Active EFFOcc trained with 6\% labelled voxels achieves 47.19 mIoU, which is 95.7% fully supervised performance. The proposed EFFOcc also supports improved vision-only occupancy prediction with the aid of region-decomposed distillation. Code and demo videos will be available at https://github.com/synsin0/EFFOcc. et.al.|[2406.07042](http://arxiv.org/abs/2406.07042)|**[link](https://github.com/synsin0/effocc)**|
 |**2024-06-11**|**PanoSSC: Exploring Monocular Panoptic 3D Scene Reconstruction for Autonomous Driving**|Vision-centric occupancy networks, which represent the surrounding environment with uniform voxels with semantics, have become a new trend for safe driving of camera-only autonomous driving perception systems, as they are able to detect obstacles regardless of their shape and occlusion. Modern occupancy networks mainly focus on reconstructing visible voxels from object surfaces with voxel-wise semantic prediction. Usually, they suffer from inconsistent predictions of one object and mixed predictions for adjacent objects. These confusions may harm the safety of downstream planning modules. To this end, we investigate panoptic segmentation on 3D voxel scenarios and propose an instance-aware occupancy network, PanoSSC. We predict foreground objects and backgrounds separately and merge both in post-processing. For foreground instance grouping, we propose a novel 3D instance mask decoder that can efficiently extract individual objects. we unify geometric reconstruction, 3D semantic segmentation, and 3D instance segmentation into PanoSSC framework and propose new metrics for evaluating panoptic voxels. Extensive experiments show that our method achieves competitive results on SemanticKITTI semantic scene completion benchmark. et.al.|[2406.07037](http://arxiv.org/abs/2406.07037)|null|
-|**2024-06-11**|**LiSD: An Efficient Multi-Task Learning Framework for LiDAR Segmentation and Detection**|With the rapid proliferation of autonomous driving, there has been a heightened focus on the research of lidar-based 3D semantic segmentation and object detection methodologies, aiming to ensure the safety of traffic participants. In recent decades, learning-based approaches have emerged, demonstrating remarkable performance gains in comparison to conventional algorithms. However, the segmentation and detection tasks have traditionally been examined in isolation to achieve the best precision. To this end, we propose an efficient multi-task learning framework named LiSD which can address both segmentation and detection tasks, aiming to optimize the overall performance. Our proposed LiSD is a voxel-based encoder-decoder framework that contains a hierarchical feature collaboration module and a holistic information aggregation module. Different integration methods are adopted to keep sparsity in segmentation while densifying features for query initialization in detection. Besides, cross-task information is utilized in an instance-aware refinement module to obtain more accurate predictions. Experimental results on the nuScenes dataset and Waymo Open Dataset demonstrate the effectiveness of our proposed model. It is worth noting that LiSD achieves the state-of-the-art performance of 83.3% mIoU on the nuScenes segmentation benchmark for lidar-only methods. et.al.|[2406.07023](http://arxiv.org/abs/2406.07023)|null|
+|**2024-06-12**|**LiSD: An Efficient Multi-Task Learning Framework for LiDAR Segmentation and Detection**|With the rapid proliferation of autonomous driving, there has been a heightened focus on the research of lidar-based 3D semantic segmentation and object detection methodologies, aiming to ensure the safety of traffic participants. In recent decades, learning-based approaches have emerged, demonstrating remarkable performance gains in comparison to conventional algorithms. However, the segmentation and detection tasks have traditionally been examined in isolation to achieve the best precision. To this end, we propose an efficient multi-task learning framework named LiSD which can address both segmentation and detection tasks, aiming to optimize the overall performance. Our proposed LiSD is a voxel-based encoder-decoder framework that contains a hierarchical feature collaboration module and a holistic information aggregation module. Different integration methods are adopted to keep sparsity in segmentation while densifying features for query initialization in detection. Besides, cross-task information is utilized in an instance-aware refinement module to obtain more accurate predictions. Experimental results on the nuScenes dataset and Waymo Open Dataset demonstrate the effectiveness of our proposed model. It is worth noting that LiSD achieves the state-of-the-art performance of 83.3% mIoU on the nuScenes segmentation benchmark for lidar-only methods. et.al.|[2406.07023](http://arxiv.org/abs/2406.07023)|null|
 |**2024-06-11**|**Developing, Analyzing, and Evaluating Vehicular Lane Keeping Algorithms Under Dynamic Lighting and Weather Conditions Using Electric Vehicles**|Self-driving vehicles have the potential to reduce accidents and fatalities on the road. Many production vehicles already come equipped with basic self-driving capabilities, but have trouble following lanes in adverse lighting and weather conditions. Therefore, we develop, analyze, and evaluate two vehicular lane-keeping algorithms under dynamic weather conditions using a combined deep learning- and hand-crafted approach and an end-to-end deep learning approach. We use image segmentation- and linear-regression based deep learning to drive the vehicle toward the center of the lane, measuring the amount of laps completed, average speed, and average steering error per lap. Our hybrid model completes more laps than our end-to-end deep learning model. In the future, we are interested in combining our algorithms to form one cohesive approach to lane-following. et.al.|[2406.06899](http://arxiv.org/abs/2406.06899)|null|
 |**2024-06-10**|**PatchRefiner: Leveraging Synthetic Data for Real-Domain High-Resolution Monocular Metric Depth Estimation**|This paper introduces PatchRefiner, an advanced framework for metric single image depth estimation aimed at high-resolution real-domain inputs. While depth estimation is crucial for applications such as autonomous driving, 3D generative modeling, and 3D reconstruction, achieving accurate high-resolution depth in real-world scenarios is challenging due to the constraints of existing architectures and the scarcity of detailed real-world depth data. PatchRefiner adopts a tile-based methodology, reconceptualizing high-resolution depth estimation as a refinement process, which results in notable performance enhancements. Utilizing a pseudo-labeling strategy that leverages synthetic data, PatchRefiner incorporates a Detail and Scale Disentangling (DSD) loss to enhance detail capture while maintaining scale accuracy, thus facilitating the effective transfer of knowledge from synthetic to real-world data. Our extensive evaluations demonstrate PatchRefiner's superior performance, significantly outperforming existing benchmarks on the Unreal4KStereo dataset by 18.1% in terms of the root mean squared error (RMSE) and showing marked improvements in detail accuracy and consistent scale estimation on diverse real-world datasets like CityScape, ScanNet++, and ETH3D. et.al.|[2406.06679](http://arxiv.org/abs/2406.06679)|null|
 |**2024-06-10**|**How Useful is Intermittent, Asynchronous Expert Feedback for Bayesian Optimization?**|Bayesian optimization (BO) is an integral part of automated scientific discovery -- the so-called self-driving lab -- where human inputs are ideally minimal or at least non-blocking. However, scientists often have strong intuition, and thus human feedback is still useful. Nevertheless, prior works in enhancing BO with expert feedback, such as by incorporating it in an offline or online but blocking (arrives at each BO iteration) manner, are incompatible with the spirit of self-driving labs. In this work, we study whether a small amount of randomly arriving expert feedback that is being incorporated in a non-blocking manner can improve a BO campaign. To this end, we run an additional, independent computing thread on top of the BO loop to handle the feedback-gathering process. The gathered feedback is used to learn a Bayesian preference model that can readily be incorporated into the BO thread, to steer its exploration-exploitation process. Experiments on toy and chemistry datasets suggest that even just a few intermittent, asynchronous expert feedback can be useful for improving or constraining BO. This can especially be useful for its implication in improving self-driving labs, e.g. making them more data-efficient and less costly. et.al.|[2406.06459](http://arxiv.org/abs/2406.06459)|**[link](https://github.com/wiseodd/bo-async-feedback)**|
@@ -3498,7 +3498,7 @@
 |**2023-12-11**|**Evaluation of Large Language Models for Decision Making in Autonomous Driving**|Kotaro Tanahashi et.al.|[2312.06351](http://arxiv.org/abs/2312.06351)|null|
 |**2023-12-11**|**Attribute Annotation and Bias Evaluation in Visual Datasets for Autonomous Driving**|David Fernández Llorca et.al.|[2312.06306](http://arxiv.org/abs/2312.06306)|**[link](https://github.com/ec-jrc/humaint_annotator)**|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 ## LLM
 
@@ -4746,7 +4746,7 @@
 |**2023-12-12**|**Sequential Planning in Large Partially Observable Environments guided by LLMs**|Swarna Kamal Paul et.al.|[2312.07368](http://arxiv.org/abs/2312.07368)|null|
 |**2023-12-12**|**Can ChatGPT Play the Role of a Teaching Assistant in an Introductory Programming Course?**|Anishka et.al.|[2312.07343](http://arxiv.org/abs/2312.07343)|null|
 
-<p align=right>(<a href=#updated-on-20240612>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20240613>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
